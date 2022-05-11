@@ -16,7 +16,6 @@
   },
   "scripts": {
     "server": "react-scripts server",
-    "build": "node-env-run server --exec nodemon | pino-colada ",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "node-env-run server --exec nodemon | pino-colada",
