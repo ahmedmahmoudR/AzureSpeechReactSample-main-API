@@ -36,7 +36,7 @@ app.get('/api/get-speech-token', async (req, res, next) => {
     }
 });
 app.set('trust proxy',1)
-app.listen(process.env.PORT, () =>
+app.listen(process.env.PORT|| 3000, () =>
     console.log('Express server is running on localhost:'+ process.env.PORT)
 
     
